@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with acostant byte
- * @s: memory area to be filled
- * @b: char to copy
- * @n: number of times to copy
+ * _memset - Entery point
+ * @s: pointed destination
+ * @b: costant byte
+ * @n: bytes
  *
- * Return: pointer to the memory area s
+ * Return: Always 0 (success)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
-		s[i] = b;
+		si[i] = b;
 	return (s);
 }
+
